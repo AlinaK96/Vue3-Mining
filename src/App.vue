@@ -7,4 +7,11 @@
 </template>
 
 <style lang="css">
+:root{
+  --bac-main: green;
+}
+
+.test{
+  color: var(--bac-main);
+}
 </style>
