@@ -7,11 +7,11 @@ const routes = [
     name: 'auth',
     component: AuthPage
   },
-  // {
-  //   path: '/about',
-  //   name: 'about',
-  //   component: () => import('../views/AboutView.vue')
-  // }
+  {
+    path: '/main',
+    name: 'main',
+    component: () => import('../views/MainView.vue')
+  }
 ]
 
 const router = createRouter({

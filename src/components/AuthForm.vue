@@ -6,20 +6,30 @@
         </div>
         <form>
             <label for="email">Email</label>
-            <input type="email" id="email" autocomplete="email" required placeholder="Почта:">
+            <input type="text" id="email" autocomplete="email" value="" required placeholder="Почта:">
 
             <label for="password">Пароль</label>
-            <input id="password" name="password" type="password" autocomplete="current-password" required placeholder="Пароль:">
+            <input id="password" name="password" type="password" value="" autocomplete="current-password" required placeholder="Пароль:">
 
-            <button>Войти</button>
+            <button @click="Validate" >Войти</button>
         </form>
     </div>
 </template>
 
 <script>
-export default {
-    name: 'AuthForm',
-}
+    export default {
+        name: 'AuthForm',
+        methods:{
+            Validate(){
+                let email = document.querySelector('#email')
+                let password = document.querySelector('#password')
+                if (email.value !== '' && password.value!= ''){
+                    this.$router.push('main') 
+                } 
+            }
+        }
+    }
+
 </script>
 
 <style scoped lang="css">

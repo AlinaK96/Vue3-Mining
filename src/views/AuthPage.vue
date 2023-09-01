@@ -1,7 +1,6 @@
 <template>
   <div class="auth">
     <img src="../assets/img/png/Logo.png" alt="Упс..">
-    <h4></h4>
     <AuthForm/>
   </div>
 </template>
@@ -22,5 +21,9 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .auth img{
+    margin-top: 15px;
   }
 </style>
