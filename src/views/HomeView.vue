@@ -1,5 +1,5 @@
 <template>
-  <div class="home test1">
+  <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld class="test" msg="Welcome to Your Vue.js App"/>
   </div>
@@ -17,7 +17,5 @@ export default {
 </script>
 
 <style lang="css">
-  .test1{
-    background-color: var(--bac-main);
-  }
+
 </style>
