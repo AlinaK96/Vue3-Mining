@@ -34,7 +34,7 @@
                         id: 2,
                         title: 'Уведомления',
                         img: '/notification.png',
-                        link: 'notifications'
+                        link: 'notifications',
                     },
                     {
                         id:3,

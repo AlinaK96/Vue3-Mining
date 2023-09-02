@@ -9,13 +9,15 @@
 
         <router-link :to=item.link v-for="item in data" :key=item.id class="personal__link" :title=item.title>
             <p>{{ item.title }}</p>
-            <div class="circle"><span>{{ item.data }}</span></div> 
+            <progress-bar :style=item.style :data=item.data></progress-bar>
         </router-link> 
     </div>
 </template>
 
 <script>
+import ProgressBar from '../progressbar/ProgressBar.vue'
 export default {
+    components: { ProgressBar },
     name: 'JobCard',
     data(){
         return{
@@ -39,13 +41,15 @@ export default {
                     id:3,
                     title: 'Тестов выполнено:',
                     data: 12,
-                    link: 'tests'
+                    link: 'tests',
+                    style: '--value:12'
                 },
                 {
                     id:4,
                     title: 'Аттестация через:',
                     data: '3 дня',
-                    link: 'accreditation'
+                    link: 'accreditation',
+                    style: '--value:3'
                 }
             ]
         }
