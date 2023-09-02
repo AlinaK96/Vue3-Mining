@@ -20,3 +20,12 @@ html.light .personal__card__private{
     font-weight: 700;
     color: var(--main-content);
 }
+
+html.light .center{
+    color: var(--font-secondary);
+}
+
+html.light .center button{
+    background-color: var(--main-content);
+    color: var(--font-primary);
+}
