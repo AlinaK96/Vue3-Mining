@@ -28,9 +28,12 @@ export default {
 
 <style scoped>
     .popup{
+        position: relative;
         z-index: 10;
-        width: 50px;
-        height: 50px;
+        top: -40px;
+        left: 120px;
+        width: 45px;
+        height: 40px;
         border-radius: 50%;
         background-color: var(--extra-content);
         text-align: center;

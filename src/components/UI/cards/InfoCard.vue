@@ -6,7 +6,7 @@
                     :title=item.title 
                     class="info__card"
         >   
-            <pop-up v-if="item.title === 'Уведомления'"  />
+            <pop-up v-if="item.title === 'Уведомления'" />
             <p>{{ item.title }}</p>
             <img :src=item.img alt="Упс..">
         </router-link>
@@ -34,8 +34,7 @@
                         id: 2,
                         title: 'Уведомления',
                         img: '/notification.png',
-                        link: 'notifications',
-                        popup: 2
+                        link: 'notifications'
                     },
                     {
                         id:3,
