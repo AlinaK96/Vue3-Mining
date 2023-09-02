@@ -1,13 +1,13 @@
 <template>
     <div class="personal__page">
-        <router-link :to=item.link v-for="item in info" :key=item.id class="personal__link">
+        <router-link :to=item.link v-for="item in info" :key=item.id class="personal__link" :title=item.title>
             <p>{{ item.title }}</p>
             <div class="circle">
                 <img :src=item.img alt="Упс..">
             </div> 
         </router-link> 
 
-        <router-link :to=item.link v-for="item in data" :key=item.id class="personal__link">
+        <router-link :to=item.link v-for="item in data" :key=item.id class="personal__link" :title=item.title>
             <p>{{ item.title }}</p>
             <div class="circle"><span>{{ item.data }}</span></div> 
         </router-link> 
