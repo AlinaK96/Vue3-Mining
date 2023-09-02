@@ -7,6 +7,7 @@
 
 <script>
 export default {
+    name: 'TimeGenerator',
     data(){
         return{
             dataBlock: '',

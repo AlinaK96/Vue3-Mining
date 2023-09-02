@@ -13,13 +13,7 @@
 
         <div class='sidebar__content'>
             <PersonalCard />
-            <div class='main-info__date-inner'>
-                <p class='main-info__small-date'>Сегодня</p>
-                <p class='main-info__small-date'>{currentDate}</p>
-                <p class='main-info__small-date'>Сегодня</p>
-                <p class='main-info__small-date'>{currentDate}</p>
-            </div>
-            
+            <JobCard />
         </div>
     </section>
 </template>
@@ -28,12 +22,15 @@
     import InfoTime from './UI/time/InfoTime.vue'
     import ThemeToggle from './UI/themeToggle/ThemeToggle.vue'
     import PersonalCard from './UI/cards/PersonalCard.vue'
+    import JobCard from './UI/cards/JobCard.vue'
 
     export default {
-        components: { 
+        name: 'SidebarComp',
+        components: {
             InfoTime,
             ThemeToggle,
-            PersonalCard
+            PersonalCard,
+            JobCard
         },
         methods: {
             exit(){

@@ -7,6 +7,12 @@
     </div>
 </template>
 
+<script>
+export default {
+    name: 'ThemeToggler',
+}
+</script>
+
 <style lang="css" scooped>
 .theme__toggle {
     position: relative;

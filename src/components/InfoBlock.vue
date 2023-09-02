@@ -11,7 +11,7 @@
 import InfoCard from '@/components/UI/cards/InfoCard'
 
     export default {
-    name: 'MainPage',
+    name: 'InfoBlock',
     components: {
         InfoCard
     }

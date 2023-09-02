@@ -15,6 +15,7 @@
 
 <script>
     export default {
+        name: 'PersonalCard',
         data(){
             return{
                 person: 
