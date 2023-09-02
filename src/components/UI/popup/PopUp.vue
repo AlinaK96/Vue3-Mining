@@ -1,13 +1,28 @@
 <template>
-    <div class="popup">{{ amount }}</div>
+    <div class="popup">{{ notifications.length }}</div>
 </template>
 
 <script>
 export default {
     name: 'PopUp',
-    props: {
-        amount: Number
-    }
+    data() {
+        return {
+            notifications: [
+                {
+                    id: 1,
+                    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, veritatis?'
+                },
+                {
+                    id: 2,
+                    text: 'Lsit amet consectetur adipisicing elit. Reiciendis, veritatis?'
+                },
+                {
+                    id: 3,
+                    text: 'Lorem ing elit. Reiciendis, veritatis?'
+                },
+            ]
+        }
+    },
 }
 </script>
 
