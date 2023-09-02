@@ -37,7 +37,6 @@ export default {
                 }
             }
 
-
             let minutes = today.getMinutes()
             let hours = today.getHours()
             if(hours < 10){
@@ -54,7 +53,8 @@ export default {
                 }
             }
 
-        }
+
+        },
     }
     
 }

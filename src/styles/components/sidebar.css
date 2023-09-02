@@ -1,12 +1,13 @@
 .sidebar {
+    box-sizing: border-box;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
+    padding: 20px 15px 20px 25px;
     min-height: 720px;
-    width: 660px;
-    padding: 30px;
+    width: 600px;
     transition: background-color 0.5s, color 0.5s;
     background-color: var(--background-secondary);
 }
@@ -71,12 +72,9 @@
 }
 
 .personal__page{
-    height: 300px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 
@@ -90,7 +88,7 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    width: 37%;
+    width: 45%;
     height: 47%;
     background-color: var(--background-primary);
     border-radius: 10px;
@@ -110,7 +108,7 @@
     text-align: center;
     width: 150px;
     font-size: 20px;
-    padding: 10px;
+    padding: 10px 0px 0px;
 }
 
 .circle{
@@ -118,7 +116,7 @@
     width:100px;
     height:100px;
     border-radius: 50%;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
     overflow: hidden;
     display: flex;
     justify-content: space-around;
