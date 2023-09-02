@@ -8,17 +8,18 @@
                 <button>Выход</button>
                 <img src="../assets/img/svg/exit.svg" alt="Упс..">
             </div>
-            
-
         </div>
+        <ThemeToggle />
     </section>
 </template>
 
 <script>
 import InfoTime from './UI/time/InfoTime.vue'
+import ThemeToggle from './UI/themeToggle/ThemeToggle.vue'
 export default {
     components: { 
-        InfoTime 
+        InfoTime,
+        ThemeToggle
     },
     methods: {
         exit(){
