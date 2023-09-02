@@ -1,10 +1,16 @@
 <template>
-    <div>
-        <div v-for="item in info" :key=item.id>
-            {{ item.title }}
-            <img :src=item.img alt="Упс...">
-            <router-link :to=item.link>hhh</router-link> 
-        </div>
+    <div class="personal__page">
+        <router-link :to=item.link v-for="item in info" :key=item.id class="personal__link">
+            <p>{{ item.title }}</p>
+            <div class="circle">
+                <img :src=item.img alt="Упс..">
+            </div> 
+        </router-link> 
+
+        <router-link :to=item.link v-for="item in data" :key=item.id class="personal__link">
+            <p>{{ item.title }}</p>
+            <div class="circle"><span>{{ item.data }}</span></div> 
+        </router-link> 
     </div>
 </template>
 
@@ -25,26 +31,24 @@ export default {
                     title: 'Предсменный экзаменатор',
                     img: '/test.png',
                     link: 'exam'
-                },
+                }
+            ],
+
+            data: [
                 {
                     id:3,
-                    title: 'Тестов выполнено',
+                    title: 'Тестов выполнено:',
                     data: 12,
                     link: 'tests'
                 },
                 {
                     id:4,
-                    title: 'Аттестация церез',
+                    title: 'Аттестация через:',
                     data: '3 дня',
                     link: 'accreditation'
-                },
+                }
             ]
         }
-    },
-    methods: {
-        // SeeDetails(){
-        //     this.$router.push(this.item.link)
-        // }
     }
 }
 </script>

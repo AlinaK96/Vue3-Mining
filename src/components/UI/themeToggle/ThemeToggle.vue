@@ -65,4 +65,10 @@ export default {
     left: calc(100% - 35px + 10px);
 }
 
+@media (max-width: 849px){
+    .theme__toggle{
+        top: 20px;
+    }
+}
+
 </style>
