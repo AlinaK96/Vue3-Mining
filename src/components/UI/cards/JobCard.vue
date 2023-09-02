@@ -2,7 +2,8 @@
     <div>
         <div v-for="item in info" :key=item.id>
             {{ item.title }}
-            <a :href=item.link>gdfvgvc</a>
+            <img :src=item.img alt="Упс...">
+            <router-link :to=item.link>hhh</router-link> 
         </div>
     </div>
 </template>
@@ -16,13 +17,13 @@ export default {
                 {
                     id:1,
                     title: 'Инструктаж',
-                    img: '',
+                    img: '/instructions.png',
                     link: 'instructions'
                 },
                 {
                     id:2,
                     title: 'Предсменный экзаменатор',
-                    img: '',
+                    img: '/test.png',
                     link: 'exam'
                 },
                 {

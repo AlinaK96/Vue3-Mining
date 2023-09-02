@@ -9,3 +9,20 @@ body {
 .none{
     display: none;
 }
+
+.center{
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+}
+
+.center button{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: var(--background-secondary);
+}
+
+.center button:hover{
+    opacity: .7;
+}
