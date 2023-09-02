@@ -9,16 +9,15 @@
 
 <style lang="css" scooped>
 .theme__toggle {
-    position: absolute;
-    right: 25px;
-    top: 150px;
+    position: relative;
+    top: 100px;
     border: 2px solid transparent;
     border-radius: 130px;
     margin-bottom: 45px;
     padding: 1px 2px;
     cursor: pointer;
     display: flex;
-    align-items: center;
+    align-self: flex-end;
 }
 
 .theme__toggle:last-child {

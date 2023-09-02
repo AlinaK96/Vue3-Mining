@@ -6,6 +6,7 @@
     padding: 15px 25px;
     background-color: var(--background-primary);
     color: var(--font-primary);
+    cursor: pointer;
 }
 
 .personal__card__private{

@@ -1,6 +1,6 @@
 <template>
-    <div >
-        <div class='personal__card'>
+    <div>
+        <div class='personal__card' @click="goToProfile" title="Перейти в профиль">
             <div class="personal__card__private">
                 <p>{{ person.surname }} {{ person.name }} {{ person.patronymic }}</p>
                 <span>{{ person.birthdate }}</span>
@@ -28,6 +28,11 @@
                         occupation: 'Проходчик IV разряда'
                     }
                 
+            }
+        },
+        methods: {
+            goToProfile(){
+                this.$router.push('/profile')
             }
         }
     }
