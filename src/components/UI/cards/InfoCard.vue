@@ -17,22 +17,26 @@ export default{
                 {
                     id:1,
                     title: 'Начать работу',
-                    img: '/img/png/work.png'
+                    img: '/work.png',
+                    link: 'work'
                 },
                 {
                     id: 2,
                     title: 'Уведомления',
-                    img: '/img/png/notification.png'
+                    img: '/notification.png',
+                    link: 'notifications'
                 },
                 {
                     id:3,
                     title: 'Обучение',
-                    img: '/img/png/study.png'
+                    img: '/study.png',
+                    link: 'study'
                 },
                 {
                     id:4,
                     title: 'Достидения',
-                    img: '/img/png/achive.png'
+                    img: '/achive.png',
+                    link: 'achivements'
                 }
             ]
         }

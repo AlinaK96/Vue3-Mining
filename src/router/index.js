@@ -6,6 +6,10 @@ import TestPage from '../views/pages/TestPage.vue'
 import ExamPage from '../views/pages/ExamPage.vue'
 import AccreditPage from '../views/pages/AccreditPage.vue'
 import InstructionPage from '../views/pages/InstructionPage.vue'
+import StudyPage from '../views/pages/StudyPage.vue'
+import WorkPage from '../views/pages/WorkPage.vue'
+import NotifPage from '../views/pages/NotifPage.vue'
+import AchievePage from '../views/pages/AchievePage.vue'
 
 
 const routes = [
@@ -43,6 +47,26 @@ const routes = [
     path: '/accreditation',
     name: 'accreditation',
     component: AccreditPage
+  },
+  {
+    path: '/work',
+    name: 'work',
+    component: WorkPage
+  },
+  {
+    path: '/study',
+    name: 'study',
+    component: StudyPage
+  },
+  {
+    path: '/notifications',
+    name: 'notifications',
+    component: NotifPage
+  },
+  {
+    path: '/achievements',
+    name: 'achievements',
+    component: AchievePage
   },
 ]
 

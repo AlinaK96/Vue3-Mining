@@ -1,19 +1,19 @@
 <template>
   <main class="content">
     <SidebarComp /> 
-    <!-- <InfoBlock /> -->
+    <InfoBlock />
   </main>
 </template>
 
 <script>
 import SidebarComp from '@/components/SidebarComp.vue'
-//import InfoBlock from '@/components/InfoBlock.vue'
+import InfoBlock from '@/components/InfoBlock.vue'
 
   export default {
     name: 'MainPage',
     components: {
       SidebarComp,
-      //InfoBlock
+      InfoBlock
     }
   }
 
