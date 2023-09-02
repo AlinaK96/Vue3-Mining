@@ -1,7 +1,8 @@
 <template>
-    <div>
+    <section class="main-info">
+        <img src="../assets/img/png/Logo.png" alt="Упс.." class="logo">
         <InfoCard />
-    </div>
+    </section>
 
 </template>
 

@@ -27,3 +27,17 @@ body {
 .center button:hover{
     opacity: .7;
 }
+
+.logo{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+@media (max-width: 833px){
+    .logo{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}

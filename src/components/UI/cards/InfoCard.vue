@@ -1,6 +1,10 @@
 <template>
-    <div class="info__card">
-        <router-link :to=item.link v-for="item in cards" :key=item.id :title=item.title>
+    <div class="info__cards">
+        <router-link :to=item.link v-for="item in cards" 
+                    :key=item.id 
+                    :title=item.title 
+                    class="info__card"
+        >
             <p>{{ item.title }}</p>
             <img :src=item.img alt="Упс..">
         </router-link>

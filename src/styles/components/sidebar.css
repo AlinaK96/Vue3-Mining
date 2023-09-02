@@ -36,7 +36,7 @@
 
 @media (min-width: 1200px) and (max-width: 1439px) {
     .sidebar {
-        position: fixed;
+        position: relative;
         min-height: 100vh;
         width: 660px;
         overflow-y: auto;
