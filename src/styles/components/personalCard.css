@@ -13,6 +13,12 @@
     box-shadow: -2px 4px 10px 5px rgba(0, 0, 0, 0.27);
 }
 
+.personal__card:hover{
+    -webkit-box-shadow: 4px 4px 8px -1px rgba(160, 194, 76, 0.63);
+    -moz-box-shadow: 4px 4px 8px -1px rgba(160, 194, 76, 0.63);
+    box-shadow: 4px 4px 8px -1px rgba(160, 194, 76, 0.63);
+}
+
 .personal__card__private{
     font-size: 28px;
     line-height: 40px;

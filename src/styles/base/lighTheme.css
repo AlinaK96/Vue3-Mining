@@ -29,3 +29,10 @@ html.light .center button{
     background-color: var(--main-content);
     color: var(--font-primary);
 }
+
+html.light .personal__card:hover,
+html.light .personal__link:hover{
+    -webkit-box-shadow: 4px 4px 8px -1px rgba(239, 127, 27, 0.63);
+    -moz-box-shadow: 4px 4px 8px -1px rgba(239, 127, 27, 0.63);
+    box-shadow: 4px 4px 8px -1px rgba(239, 127, 27, 0.63);
+}
