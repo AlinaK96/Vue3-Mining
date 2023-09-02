@@ -1,10 +1,12 @@
 <template>
     <div class="info__cards">
+        
         <router-link :to=item.link v-for="item in cards" 
                     :key=item.id 
                     :title=item.title 
                     class="info__card"
-        >
+        >   
+            <pop-up v-if="item.title === 'Уведомления'" :amount=item.popup />
             <p>{{ item.title }}</p>
             <img :src=item.img alt="Упс..">
         </router-link>
@@ -13,7 +15,9 @@
 
 
 <script>
+import PopUp from '../popup/PopUp.vue'
 export default{
+  components: { PopUp },
     name: 'InfoCard',
     data(){
         return{
@@ -28,7 +32,8 @@ export default{
                     id: 2,
                     title: 'Уведомления',
                     img: '/notification.png',
-                    link: 'notifications'
+                    link: 'notifications',
+                    popup: 2
                 },
                 {
                     id:3,
@@ -38,7 +43,7 @@ export default{
                 },
                 {
                     id:4,
-                    title: 'Достидения',
+                    title: 'Достижения',
                     img: '/achive.png',
                     link: 'achivements'
                 }

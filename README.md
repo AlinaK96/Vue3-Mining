@@ -1,24 +1,12 @@
 # amicum
 
-## Project setup
-```
-npm install
-```
+## Страница программы
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Страница авторизации;
+- Основная страница;
+- Кнопка выхода из личного профиля;
+- Смена темы светлая/тёмная;
+- Все плитки кликабельны и перенаправляют на соответсвующую страницу;
+- Форматированный вывод даты и времени (если в них всего одна цифра, то автоматически подскавляется '0');
+- Подключён роутер для перехода по страницам и возвращению назад;
+- Данные карточек не статичны, а генерируются из блока data в компоненте через цикл;

@@ -40,7 +40,7 @@ export default {
 <style lang="css" scooped>
 .theme__toggle {
     position: relative;
-    top: 100px;
+    top: 25px;
     border: 2px solid transparent;
     border-radius: 130px;
     margin-bottom: 45px;

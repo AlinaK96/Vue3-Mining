@@ -3,7 +3,7 @@
     align-items: flex-start;
     flex-direction: column;
     width: 100%;
-    padding: 15px 25px;
+    padding: 10px 25px;
     background-color: var(--background-primary);
     color: var(--font-primary);
     cursor: pointer;

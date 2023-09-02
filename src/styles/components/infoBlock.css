@@ -43,7 +43,7 @@
     box-shadow: 4px 4px 8px -1px rgba(160, 194, 76, 0.63);
 }
 
-/* @media (min-width: 1200px) and (max-width: 1439px){
+ @media (min-width: 1200px) and (max-width: 1439px){
     .main-info {
         width: 750px;
     }
@@ -58,7 +58,7 @@
         width: 200px;
         height: 200px;
     }
-} */
+} 
 
 @media (max-width: 833px) {
     .main-info {
@@ -68,4 +68,3 @@
         padding: 31px 30px 44px;
     }
 }
-

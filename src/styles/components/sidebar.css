@@ -63,7 +63,7 @@
 .sidebar__content {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
     width: 100%;
     font-size: 18px;
     color: var(--font-primary);
@@ -71,19 +71,14 @@
 }
 
 .personal__page{
+    height: 300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
 }
 
-@media (max-width:600px) {
-    .personal__page{
-        gap: 10px;
-    }
-    
-}
 
 .personal__page a:first-child p{
     margin-top: 10px;
@@ -95,8 +90,8 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    width: 45%;
-    height: 45%;
+    width: 37%;
+    height: 47%;
     background-color: var(--background-primary);
     border-radius: 10px;
     -webkit-box-shadow: -2px 4px 10px 5px rgba(0, 0, 0, 0.27);
