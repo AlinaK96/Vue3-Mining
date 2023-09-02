@@ -64,8 +64,8 @@ const routes = [
     component: NotifPage
   },
   {
-    path: '/achievements',
-    name: 'achievements',
+    path: '/achivements',
+    name: 'achivements',
     component: AchievePage
   },
 ]

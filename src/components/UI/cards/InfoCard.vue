@@ -1,9 +1,9 @@
 <template>
     <div class="info__card">
-        <div v-for="card in cards" :key=card.id>
-            <p> {{ card.title }}</p>
-            <img :src=card.img alt="Упс..">
-        </div>
+        <router-link :to=item.link v-for="item in cards" :key=item.id :title=item.title>
+            <p>{{ item.title }}</p>
+            <img :src=item.img alt="Упс..">
+        </router-link>
     </div>
 </template>
 
