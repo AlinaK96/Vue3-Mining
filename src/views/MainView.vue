@@ -25,7 +25,7 @@ import InfoBlock from '@/components/InfoBlock.vue'
     min-height: 100vh
   }
 
-  @media (max-width: 833px){ 
+  @media (max-width: 850px){ 
     .content {
       display: flex;
       align-items: center;
