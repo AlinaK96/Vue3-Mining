@@ -1,11 +1,16 @@
-<template>
-    <div>
-        Профиль
+<template >
+    <div class="center">
+        <h2>Профиль</h2>
+        <back-btn />
+
     </div>
 </template>
 
 <script>
-export default {
-    name: 'ProfilePage'
+import BackBtn from './../components/UI/buttons/BackBtn.vue'
+export default{
+    components: { BackBtn },
+    name: 'ProfilePage',
+
 }
 </script>
