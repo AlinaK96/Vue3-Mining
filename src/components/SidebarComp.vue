@@ -2,8 +2,7 @@
     <section class='sidebar'>
         <div className='sidebar__header'>
             <div class="header__data">
-                <p id="timestamp">{{dataBlock}}</p>
-                <span>{{timeBlock}}</span>
+                <InfoTime />
             </div>
             <div class="exit" title="Выход" @click="exit">
                 <button>Выход</button>
@@ -16,27 +15,14 @@
 </template>
 
 <script>
+import InfoTime from './UI/time/InfoTime.vue'
 export default {
-    data(){
-        return{
-            dataBlock: '',
-            timeBlock: ''
-        }
-    },        
-    created() {
-            setInterval(this.getNow, 1000);
-        },
+    components: { 
+        InfoTime 
+    },
     methods: {
         exit(){
             this.$router.push('/')
-        },
-
-        getNow() {
-            let today = new Date();
-            let date = today.getDate()+'.'+ (today.getMonth()+1)+'.' + today.getFullYear();
-            let time = today.getHours() + ":" + today.getMinutes();
-            this.dataBlock = date
-            this.timeBlock = time;
         }
     },
 }
