@@ -26,6 +26,11 @@ export default {
         initial-value: 0;
     }
 
+    html.light [role="progressbar"]{
+        --primary: #ef7f1b;
+        --secondary: #b1bbcf;
+    }
+
     [role="progressbar"] {
         --percentage: var(--value);
         --primary: #a0c24c;
@@ -48,7 +53,7 @@ export default {
         left: 0;
         width: 100%;
         height: 100%;
-        background: conic-gradient(var(--primary) calc(var(--percentage) * 1%), var(--secondary) 0);
+        background: conic-gradient(var(--primary) calc(var(--percentage) * 5%), var(--secondary) 0);
         mask: radial-gradient(white 55%, transparent 0);
         mask-mode: alpha;
         -webkit-mask: radial-gradient(#0000 55%, #000 0);
