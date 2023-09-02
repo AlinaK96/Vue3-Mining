@@ -6,10 +6,10 @@
         </div>
         <form>
             <label for="email">Email</label>
-            <input type="text" id="email" autocomplete="email" value="" required placeholder="Почта:">
+            <input type="text" id="email" value="" required placeholder="Почта:">
 
             <label for="password">Пароль</label>
-            <input id="password" name="password" type="password" value="" autocomplete="current-password" required placeholder="Пароль:">
+            <input id="password" name="password" type="password" value=""  required placeholder="Пароль:">
 
             <button @click="Validate" >Войти</button>
         </form>
@@ -24,6 +24,8 @@
                 let email = document.querySelector('#email')
                 let password = document.querySelector('#password')
                 if (email.value !== '' && password.value!= ''){
+                    email.value = ''
+                    password.value = ''
                     this.$router.push('main') 
                 } 
             }

@@ -18,6 +18,9 @@ export default {
 
 <style lang="css">
   .auth {
+    width: 100wh;
+    height: 100vh;
+    background-color: var(--background-logo);
     display: flex;
     flex-direction: column;
     align-items: center;
