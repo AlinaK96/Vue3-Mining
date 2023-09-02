@@ -1,0 +1,22 @@
+
+
+html.light .personal__card,
+html.light, .light body,
+html.light .personal__link{
+    background: var(--light--background-primary);
+    color: var(--font-secondary);
+}
+
+html.light .sidebar{
+    background-color: var(--light--background-secondary);
+}
+
+html.light .circle{
+    border : 7px solid var(--main-content);
+}
+
+html.light .time,
+html.light .personal__card__private{
+    font-weight: 700;
+    color: var(--main-content);
+}

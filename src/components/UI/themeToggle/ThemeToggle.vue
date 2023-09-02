@@ -1,5 +1,5 @@
 <template>
-    <div class="theme__toggle">
+    <div class="theme__toggle" id="themetoggle" @click="changeTheme">
         <input id="toggle__body" type="checkbox">
         <label for="toggle__body">
             <div class="toggle__ball"></div>
@@ -10,6 +10,30 @@
 <script>
 export default {
     name: 'ThemeToggler',
+    methods:{
+        changeTheme(){
+                document.querySelector('#themetoggle').addEventListener('click', () => {
+                    if (localStorage.getItem('theme') === 'light') {
+                        localStorage.removeItem('theme');
+                        }
+                        else {
+                        localStorage.setItem('theme', 'light')
+                        }
+                        addlightClassToHTML()
+                    });
+                    
+                function addlightClassToHTML() {
+                    if (localStorage.getItem('theme') === 'light') {
+                        document.querySelector('html').classList.add('light');
+                    }
+                    else {
+                        document.querySelector('html').classList.remove('light');
+
+                    }
+                }
+
+        }
+    }
 }
 </script>
 

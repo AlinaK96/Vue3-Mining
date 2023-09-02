@@ -1,6 +1,7 @@
 @import url('./base/resets.css');
 @import url('./base/base.css');
 @import url('./base/colors.css');
+@import url('./base/lighTheme.css');
 
 
 @import url('./components/sidebar.css');

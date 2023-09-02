@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="time">
         <p>{{dataBlock}}</p>
         <span>{{timeBlock}}</span>
     </div>
