@@ -11,6 +11,28 @@
     background-color: var(--background-secondary);
 }
 
+.sidebar__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 22px;
+    color: var(--font-primary);
+}
+
+.sidebar__header img{
+    margin-left: 5px;
+    margin-top: -15px;
+    transform: rotate(180deg);
+}
+
+.exit{
+    cursor: pointer;
+}
+
+.exit:hover{
+    opacity: .7;
+}
 
 @media (min-width: 850px) and (max-width: 1439px) {
     .sidebar {
