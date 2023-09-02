@@ -42,3 +42,7 @@ html.light .info__card:hover{
     -moz-box-shadow: 0px 3px 18px 7px rgba(53, 61, 84, 0.71);
     box-shadow: 0px 3px 18px 7px rgba(53, 61, 84, 0.71);
 }
+
+html.light .popup{
+    background-color: var(--light--background-secondary);
+}

@@ -22,7 +22,6 @@ import InfoBlock from '@/components/InfoBlock.vue'
 <style lang="css" scoped>
   .content{
     display: flex;
-    justify-content: space-between;
     min-height: 100vh
   }
 
