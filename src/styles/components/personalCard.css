@@ -1,0 +1,22 @@
+.personal__card {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px 25px;
+    background-color: var(--background-primary);
+    color: var(--font-primary);
+}
+
+.personal__card__private{
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.personal__card__private p {
+    font-weight: 800;
+}
+
+.personal__card__job{
+    font-size: 18px;
+}
