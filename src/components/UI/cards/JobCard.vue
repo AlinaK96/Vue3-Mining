@@ -1,7 +1,8 @@
 <template>
     <div>
-        <div v-for="card in card" :key=card.id>
-            {{ card.title }}
+        <div v-for="item in info" :key=item.id>
+            {{ item.title }}
+            <a :href=item.link>gdfvgvc</a>
         </div>
     </div>
 </template>
@@ -11,33 +12,38 @@ export default {
     name: 'JobCard',
     data(){
         return{
-            cards: [
+            info: [
                 {
                     id:1,
                     title: 'Инструктаж',
                     img: '',
-                    link: ''
+                    link: 'instructions'
                 },
                 {
                     id:2,
                     title: 'Предсменный экзаменатор',
                     img: '',
-                    link: ''
+                    link: 'exam'
                 },
                 {
                     id:3,
                     title: 'Тестов выполнено',
                     data: 12,
-                    link: ''
+                    link: 'tests'
                 },
                 {
                     id:4,
                     title: 'Аттестация церез',
                     data: '3 дня',
-                    link: ''
+                    link: 'accreditation'
                 },
             ]
         }
+    },
+    methods: {
+        // SeeDetails(){
+        //     this.$router.push(this.item.link)
+        // }
     }
 }
 </script>
