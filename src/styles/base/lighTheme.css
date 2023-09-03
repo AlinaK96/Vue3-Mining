@@ -1,8 +1,7 @@
 
 
 html.light .personal__card,
-html.light, .light body,
-html.light .personal__link{
+html.light, .light body{
     background: var(--light--background-primary);
     color: var(--font-secondary);
 }
