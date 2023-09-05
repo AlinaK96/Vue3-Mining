@@ -1,5 +1,7 @@
 <template>
-    <div class="popup">{{ notifications.length }}</div>
+    <div class="popup">
+        {{ notifications.length }}
+    </div>
 </template>
 
 <script>
@@ -38,7 +40,9 @@ export default {
         background-color: var(--extra-content);
         text-align: center;
         color: var(--font-secondary);
+        padding: 5px;
     }
+
 
     @media(max-width: 1259px){
         .popup{
