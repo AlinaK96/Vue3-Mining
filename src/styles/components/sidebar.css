@@ -123,6 +123,10 @@
     align-items: center;
 }
 
+.circle img{
+    width: 45px;
+    height: 45px;
+}
 
 .circle span{
 
