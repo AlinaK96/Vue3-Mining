@@ -36,6 +36,11 @@
     box-shadow: -2px 4px 10px 5px rgba(0, 0, 0, 0.27);
 }
 
+.info__card img{
+    width: 90px;
+    height: 80px;
+}
+
 .info__cards a:nth-child(2) p{
     margin-top: -50px;
 }
