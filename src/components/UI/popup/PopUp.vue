@@ -32,7 +32,7 @@ export default {
     .popup{
         position: relative;
         z-index: 10;
-        top: -40px;
+        top: -45px;
         left: 120px;
         width: 45px;
         height: 40px;

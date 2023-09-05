@@ -40,7 +40,7 @@ export default {
                 {
                     id:3,
                     title: 'Тестов выполнено:',
-                    data: 12,
+                    data: '12',
                     link: 'tests',
                     style: '--value:12'
                 },
