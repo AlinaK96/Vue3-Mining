@@ -46,20 +46,20 @@ export default {
 
     @media(max-width: 1259px){
         .popup{
-            left: 100px;
+            left: 90px;
         }
     }
 
     @media(max-width: 1100px){
         .popup{
-            left: 90px;
+            left: 80px;
         }
     }
 
     @media (max-width: 850px){
         .popup{
             left: 145px;
-            top: -35px;
+            top: -45px;
         }
     }
 </style>
