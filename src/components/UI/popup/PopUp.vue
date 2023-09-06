@@ -62,4 +62,18 @@ export default {
             top: -45px;
         }
     }
+
+    @media(min-width: 1550px){
+        .popup{
+            left: 145px;
+            top: -75px;
+        }
+    }
+
+    @media (min-width: 1800px){
+        .popup{
+            left: 170px;
+            top: -82px;
+        }
+    }
 </style>

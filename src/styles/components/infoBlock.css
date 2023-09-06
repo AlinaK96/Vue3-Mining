@@ -55,12 +55,27 @@
     box-shadow: 4px 4px 8px -1px rgba(160, 194, 76, 0.63);
 }
 
-@media (max-width: 1370px){
-    /* .main-info {
-        margin-left: 35px;
-    } */
+@media (min-width: 1550px){
+    .main-info {
+        width: 700px;
+    }
+
+    .info__card{
+        width: 300px;
+        height: 250px;
+    }
 }
 
+@media (min-width: 1800px){
+    .main-info{
+        width: 800px;
+    }
+
+    .info__card{
+        width: 350px;
+        height: 270px;
+    }
+}
 @media (max-width: 1259px){
     .main-info{
         width: 550px;
